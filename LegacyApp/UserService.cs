@@ -1,11 +1,17 @@
-﻿using System;
+﻿
+using System;
+
 
 namespace LegacyApp
 {
 	public enum ClientType { VeryImportantClient, ImportantClient }
 
-	//This Class is missing a good programming principle. Code to an interface not implementation
-	//Difficult to write Unit tests.
+	/*
+  * Each Class is missing a good programming principle. Code to an interface not implementation.
+  * Each requires a interface in order to create mock for unit testing. 
+  *	//Difficult to write Unit tests.
+ */
+	//
 	public class UserService
 	{
 		public bool AddUser(string firstName, string surname, string email, DateTime dateOfBirth, int clientId)

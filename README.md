@@ -1,7 +1,6 @@
-# OdysseyChallenge
-Refactoring code by implementing SOLID, KISS, DRY and YAGNI principles
-
 # Refactoring Test in C#
+
+Refactoring code by implementing SOLID, KISS, DRY and YAGNI principles
 
 ## Description
 
